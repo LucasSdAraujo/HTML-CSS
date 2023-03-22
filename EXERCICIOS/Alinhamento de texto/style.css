@@ -1,0 +1,27 @@
+body{
+    background-image: linear-gradient(to bottom,rgb(230, 87, 87), rgb(16, 250, 250));
+    background-attachment: fixed;
+    font: normal 15px arial, verdana, serif;
+}
+main{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 3px rgb(6, 75, 75);
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+/*Daqui para baixo é a parte relacionada ao alinhamento do texto*/
+h1{
+    text-align: center;
+    color: rgb(0, 134, 134);
+}
+
+h2{
+    text-align: left;
+}
+
+p{
+    text-align: justify;
+    text-indent: 30px;
+}

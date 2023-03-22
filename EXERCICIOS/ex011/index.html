@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tente abrir um site em varios dispositivos diferentes ou simplismente almente e diminua o tamanho do seu navegador </p>
+
+    <picture><!--nao funcionou no meu navegador, nao sei porque, eu fiz tudo igual foi encinado -->
+        <source media="(max-width: 750px)" srcset="imagens/imagem p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="image/imagem m.png" type="image/png">
+        <img src="imagens/imagem g.png" alt="imagem flexivel">
+    </picture>
+    
+    <h1>Reproduzindo audio</h1>
+    <p>vamos aprender a reproduzir audio em HTML5.</p>
+    <audio src="midia/A Walk Into Space - Topher Mohr and Alex Elena.mp3" controls autoplay></audio>
+    <!-- Formatos alternativos MP3 WAV OGG-->
+    <audio>
+        <source src="midia/A Walk Into Space - Topher Mohr and Alex Elena.mp3" type="audio/mpeg">
+    </audio>
+    
+</body>
+</html>

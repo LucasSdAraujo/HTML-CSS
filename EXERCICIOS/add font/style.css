@@ -1,0 +1,16 @@
+@font-face {
+    font-family: MF;
+    src: url(YoungMoney_PERSONAL_USE_ONLY.otf);
+    /*Essa forma de colocar o texto deu certo*/
+}
+body{
+    background-image:linear-gradient( aqua, rgb(24, 24, 224));
+    
+}
+
+h1{
+    font-family:'MF';
+    text-align: center;
+    color: blueviolet;
+    background-color: aqua;
+}
